@@ -1,26 +1,26 @@
-Ciao ragazzi.
-
+Ciao ragazzi.<br>
+<br>
 Eccovi qui. Lo so, non era necessario. Ma ecco la mia ricetta dei Cepelinai, piatto tipico della cucina lituana.
 
-INGREDIENTI: *4 persone*
+INGREDIENTI: *4 persone*<br>
 
-500 gr di patate
-250 gr di carne macinata
-1 uovo
-1 scalogno
-farina q.b.
-1 spicchio di aglio
-80 gr di pancetta a cubetti
-sale
-per la salsa:
-
-250 gr di funghi freschi
-200 ml di panna da cucina
-15 gr di funghi secchi
-50 gr di burro
-1 scalogno
-sale
-PREPARAZIONE:
+500 gr di patate<br>
+250 gr di carne macinata<br>
+1 uovo<br>
+1 scalogno<br>
+farina q.b.<br>
+1 spicchio di aglio<br>
+80 gr di pancetta a cubetti<br>
+sale<br>
+per la salsa:<br>
+<br>
+250 gr di funghi freschi<br>
+200 ml di panna da cucina<br>
+15 gr di funghi secchi<br>
+50 gr di burro<br>
+1 scalogno<br>
+sale<br>
+PREPARAZIONE:<br>
 
 Per preparare il vostro cepelinai, grattugiate una metà delle patate crude e sbucciate. L’altra metà delle patate, invece, lessatela e poi passatela nello schiacciapatate.
 
