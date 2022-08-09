@@ -1,0 +1,12 @@
+.container .text{
+  background-color: yellow;
+  color: red;
+  font-size: 20px;
+  text-align: center;
+}
+
+.max .text {
+    background-color: black;
+    color: white;
+    text-align: right;
+}
