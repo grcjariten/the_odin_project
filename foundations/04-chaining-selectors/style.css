@@ -1,0 +1,12 @@
+
+.avatar.proportioned {
+    width: 400px;
+    height: auto;
+}
+
+.avatar.distorted {
+    width: 200px;
+    height: 400px;
+}
+
+/* Non dimenticarti quei cazzo di "px", buttani loro */
