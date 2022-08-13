@@ -33,7 +33,7 @@ body {
 }
 
 .profile-image {
-  background: rebeccapurple;
+  background: url(max1.jpeg) center;
   box-shadow: inset 2px 2px 4px rgba(0,0,0,.5);
   border-radius: 50%;
   width: 48px;
