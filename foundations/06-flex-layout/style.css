@@ -8,12 +8,13 @@ body {
   
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+
+ 
   
 }
 
 img {
-    margin-top: 180px;
+   
   width: 600px;
 }
 
@@ -36,26 +37,22 @@ input {
 .header {
     display:flex;
     justify-content: space-between;
+    padding: 16px;
 }
 
 ul {
-    
+    display: flex;
     justify-content: start;
     list-style: none;
+    margin: 0;
+    padding: 0;
     gap: 10px;
 }
 
-.left-links { 
-display: flex;
 
-}
-
-.right-links {
-    display: flex;
-    
-}
 
 .content {
+  flex: 1;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -71,6 +68,7 @@ a {
 
 .footer {
 display: flex;
+padding: 16px;
 justify-content: space-between;
     background-color: #eeeeee;
 }
