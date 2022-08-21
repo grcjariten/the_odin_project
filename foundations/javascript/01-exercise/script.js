@@ -1,6 +1,7 @@
 
 function add7(number) {
-return number + 7;
+    
+return +number + 7;
 }
 
 function multiply(numberA, numberB) {
@@ -8,15 +9,9 @@ function multiply(numberA, numberB) {
 }
 
 function capitalize(string) {
-   let firstLetter = string.charAt(0).toUpperCase();
-   return firstLetter;
+   return string.charAt(0).toUpperCase();
 }
 
 function lastLetter(string) {
-for(let i=0; i<string.length; i++) {
-    if(i == string.length -1 ) {
-        let letter = string.charAt(i).toUpperCase();
-        return letter;
-    }
-}
+return string.charAt(string.length-1);
 }

@@ -6,18 +6,19 @@
     <title>Exercise 1</title>
 </head>
 <script>
-    number = 10;
-    added7 = add7(number);
+    
+    let number = prompt("Insert a number: ");
+    added7 = add7(+number);
 
     console.log("Given the number " + number + ", adding 7 it gives: " + added7);
 
-    let numberA = 10;
-    let numberB = 20;
-    let multipliedNumbers = multiply(numberA, numberB);
+    let numberA = prompt("Insert the first number:");
+    let numberB = prompt("Insert the second number");
+    let multipliedNumbers = multiply(+numberA, +numberB);
 
     console.log("Given the numbers: " + numberA + " and " + numberB + ", multiplying those gives: " + multipliedNumbers);
 
-    let string = "ciao!";
+    let string = prompt("Insert a word");
     console.log(capitalize(string));
     console.log(lastLetter(string));
 
