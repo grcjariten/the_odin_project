@@ -1,3 +1,11 @@
+let humanScore = 0;
+let computerScore = 0;
+humanScore = document.getElementById("humanS");
+computerScore = document.getElementById("computerS");
+
+
+
+
 /* Computer generates a random choice */
 function getComputerChoice() {
     let choices = ["Rock", "Paper", "Scissors"]
@@ -5,8 +13,6 @@ function getComputerChoice() {
     return(pick, choices[pick]);
 }
 let computerSelection = getComputerChoice;
-let humanScore = 0;
-let computerScore = 0;
 
 /* User insert a choice */
 let playerSelection = "Rock";
@@ -27,36 +33,53 @@ function scissors() {
 
 /* Algorithm decides who won */
 function yourScore(playerSelection, computerSelection) {
+    let score = "Tie";
     if(playerSelection==="Rock"){
         if(computerSelection==="Rock"){
-            return "Tie";
+            score = "Tie";
         } else if(computerSelection==="Paper") {
             computerScore++;
-            return "Lose";
-        } else 
+            score = "Lose";
+            document.getElementById("computerS").innerHTML = computerScore;
+        } else if(computerSelection==="Scissors"){
         humanScore++;
-        return "Win";
+        score = "Win";
+        document.getElementById("humanS").innerHTML = humanScore;
+        }
+      
     }
     if(playerSelection==="Paper") {
         if(computerSelection==="Rock"){
             humanScore++;
-            return "Win";
+            score = "Win";
+            document.getElementById("humanS").innerHTML = humanScore;
         } else if(computerSelection==="Paper") {
-            return "Tie";
-        } else 
+            score = "Tie";
+        } else if(computerSelection=="Scissors"){
         computerScore++;
-        return "Lose";
+        score = "Lose";}
+        document.getElementById("computerS").innerHTML = computerScore;
     }
     if(playerSelection==="Scissors") {
         if(computerSelection==="Rock"){
             computerScore++;
-            return "Lose";
+            score = "Lose";
+            document.getElementById("computerS").innerHTML = computerScore;
         } else if(computerSelection==="Paper") {
             humanScore++;
-            return "Win";
-        } else return "Tie";
+            score = "Win";
+            document.getElementById("humanS").innerHTML = humanScore;
+        } else if (computerSelection === "Scissors")
+        score = "Tie";
     }
+   
+    /* console.log("humanscore is: ${humansScore}");
+    document.getElementById("humanScore").innerHTML = humanScore;
+    document.getElementById("computerScore").innerHTML = computerScore; */
+    console.log(humanScore);
+    return score;
 }
+
 /* UI tells you what happenened */
 
 
